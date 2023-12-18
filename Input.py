@@ -13,3 +13,10 @@ print(fullname)
 print("Hello " + fullname) 
 
 #print(*objects, sep=' ', end='\n', file=sys.stdout, flush=false)
+print("Hello ",fullname,sep='')
+
+print("Hello",end='')
+print(fullname)
+
+#fstring
+print(f"Hello, {fullname}")
